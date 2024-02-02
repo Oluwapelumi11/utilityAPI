@@ -4,8 +4,19 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+blinker=="*"
+click=="*"
+colorama=="*"
+Flask=="*"
+itsdangerous=="*"c
+Jinja2=="*"
+MarkupSafe=="*"
+Werkzeug=="*"
+Marshmallow="*"
+qrcode[pil]="*"
+
 
 [dev-packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
