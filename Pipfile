@@ -4,17 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-blinker=="*"
-click=="*"
-colorama=="*"
-Flask=="*"
-itsdangerous=="*"c
-Jinja2=="*"
-MarkupSafe=="*"
-Werkzeug=="*"
-Marshmallow="*"
-qrcode[pil]="*"
-
+blinker = "*"
+click = "*"
+colorama = "*"
+Flask = "*"
+itsdangerous = "*"
+Jinja2 = "*"
+MarkupSafe = "*"
+Werkzeug = "*"
+Marshmallow = "*"
+"qrcode[pil]" = "*"
 
 [dev-packages]
 
